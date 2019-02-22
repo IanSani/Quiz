@@ -15,7 +15,7 @@
     <h1>QUIZ BOARD</h1>
     <form id="quiz" name="quiz">
       <div class="radio">
-        <p>NO.1 Javascript is well known as a language of?</p><br>
+      <strong><p>NO.1 Javascript is well known as a language of?</p></strong>
 
         <label>
           <input type="radio" name="choice" id="a" value="Scripting">Scripting<br>
@@ -25,7 +25,7 @@
         </label>
       </div>
       <div class="radio">
-        <p>No.2 Inside which element do we put the javascript?</p>
+        <strong><p>No.2 Inside which element do we put the javascript?</p></strong>
         <label>
           <input type="radio" name="choice2" id="e" value="javascript">javascript<br>
           <input type="radio" name="choice2" id="f" value="scripting">scripting<br>
@@ -34,7 +34,8 @@
         </label>
       </div>
       <div class="radio">
-        <p>No.3 Where is the correct place to insert a javascript?</p>
+        <strong>
+        <strong><p>No.3 Where is the correct place to insert a javascript?</p></strong></strong>
         <label>
           <input type="radio" name="choice3" id="i" value="Both the head section and the body section are correct">Both the head section and the body section are correct<br>
           <input type="radio" name="choice3" id="j" value="The head section">The head section<br>
@@ -42,13 +43,16 @@
         </label>
       </div>
       <div class="radio">
-        <p>No.4 How do you write "Hello world" in an alert box?</p>
+        <strong><p>No.4 How do you write "Hello world" in an alert box?</p></strong>
         <label>
           <input type="radio" name="choice4" id="l" value="msg(" Hello World")>msg("Hello World")<br>
           <input type="radio" name="choice4" id="m" value="msgBox(" Hello world");>msgBox("Hello World")<br>
           <input type="radio" name="choice4" id="n" value="alert(" Hello World");>alert("Hello World");<br>
           <input type="radio" name="choice4" id="o" value="alertBox(" Hello World");>alertBox("Hello World");<br>
       </div>
+      <label>
+         <input type="button" id="button" value="I`m finished" onclick="check();">
+         </label>
     </form>
   </div>
 </body>
