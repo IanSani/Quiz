@@ -14,7 +14,10 @@ body{
   background-image: url("../images/quiz.jpg");
 }
 #button{
-  color: #00ff00;
+  background-color: #00ff00;
   padding: 10px;
   border-radius: 15px;
+}
+#after-submit{
+  visibility:hidden;
 }
