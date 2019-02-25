@@ -1,17 +1,12 @@
 // This is the user interface logic:
+$(document).ready(function(){
+  $("form#quiz").submit(function(event){
+    event.preventDefault();
+    var number1=parseInt($("input:radio[name=number1]:checked").val());
+    var number2=parseInt($("input:radio[name=number2]:checked").val());
+    var number3=parseInt($("input:radio[name=number3]:checked").val());
+    var number4=parseInt($("input:radio[name=number4]:checked").val());
+    var total=(number1+number2+number3+number4);
 
-function check(){
-    var number1=document.quiz.choice.value;
-    var number2=document.quiz.choice2.value;
-    var number3=document.quiz.choice3.value;
-    var mumber4=document.quiz.choice4.value;
-    var correct=25;
-
-    if(choice == "Scripting"){
-      correct
-    }
-
-
-  document.getElementById("after submit").style.visibility="visible";
-  document.getElementById("number_correct").innerHTML="You got " +correct + " correct.";
-};
+  });
+});
