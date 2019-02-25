@@ -11,13 +11,18 @@ The application is called Quiz Board and it is used for asking series of questio
 ## Setup/Installation Requirements
 
     The application does not require any installation requirements as it is available on the internet and accessible by any browser.
-    {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+
     ## Known Bugs
-    {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+    There are not any bugs that i know of but if you encounter any,please feel free to reach out.
+
     ## Technologies Used
-    {Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+    There is use of HTML, CSS and javascript together with bootstrap.
+
     ## Support and contact details
-    {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+    If you come across any issues you can reach me through the email below.
+    iansani@gamil.com and i will try to get back to you as soon as possible.
+
     ### License
-    _{Determine the license under which this application can be used.  See below for more details on licensing.}_
-    Copyright (c) {year} **{List of contributors or company name}**
+    The application is under the license of MIT and all copyrights reserved.
+
+    Copyright (c) 2019 Ian Sani
