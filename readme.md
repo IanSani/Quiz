@@ -12,17 +12,17 @@ The application is called Quiz Board and it is used for asking series of questio
 
     The application does not require any installation requirements as it is available on the internet and accessible by any browser.
 
-    ## Known Bugs
+## Known Bugs
     There are not any bugs that i know of but if you encounter any,please feel free to reach out.
 
-    ## Technologies Used
+## Technologies Used
     There is use of HTML, CSS and javascript together with bootstrap.
 
     ## Support and contact details
     If you come across any issues you can reach me through the email below.
     iansani@gamil.com and i will try to get back to you as soon as possible.
 
-    ### License
+## License
     The application is under the license of MIT and all copyrights reserved.
 
     Copyright (c) 2019 Ian Sani
