@@ -10,6 +10,7 @@ $(document).ready(function() {
     var total = (number1 + number2 + number3 + number4);
     var percentage = ((total / 4) * 100);
     $("#result").text("You have scored: " + percentage + "%");
+    //Below is the user interface logic:
     var pictures = ["images/win.gif", "images/meh.gif", "images/lose.gif"];
     var messages = ["Nice Trial,passed!", "Average,keep up", "Need to study more,fail"];
     var score;
