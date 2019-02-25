@@ -18,6 +18,18 @@ body{
   padding: 10px;
   border-radius: 15px;
 }
-#after-submit{
-  visibility:hidden;
+#after_submit{
+  display: none;
+	background: #ff5459;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+#pictures {
+	width: 375px;
+	height: 245px;
 }

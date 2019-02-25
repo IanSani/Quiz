@@ -5,9 +5,8 @@
   <title> Quiz Board</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-  <script src="js/scripts.js"></script>
+
 </head>
 
 <body>
@@ -22,10 +21,10 @@
         </strong>
 
         <label>
-          <input type="radio" name="choice"  value="1">Scripting<br>
-          <input type="radio" name="choice"  value="0">Programming<br>
-          <input type="radio" name="choice"  value="0">Application<br>
-          <input type="radio" name="choice"  value="0">None of the above<br>
+          <input type="radio" name="choice" value="1">Scripting<br>
+          <input type="radio" name="choice" value="0">Programming<br>
+          <input type="radio" name="choice" value="0">Application<br>
+          <input type="radio" name="choice" value="0">None of the above<br>
         </label>
       </div>
       <div class="radio">
@@ -33,10 +32,10 @@
           <p>No.2 Inside which element do we put the javascript?</p>
         </strong>
         <label>
-          <input type="radio" name="choice2"  value="0">javascript<br>
-          <input type="radio" name="choice2"  value="0">scripting<br>
-          <input type="radio" name="choice2"  value="0">js<br>
-          <input type="radio" name="choice2"  value="1">script<br>
+          <input type="radio" name="choice2" value="0">javascript<br>
+          <input type="radio" name="choice2" value="0">scripting<br>
+          <input type="radio" name="choice2" value="0">js<br>
+          <input type="radio" name="choice2" value="1">script<br>
         </label>
       </div>
       <div class="radio">
@@ -45,8 +44,8 @@
             <p>No.3 Where is the correct place to insert a javascript?</p>
           </strong></strong>
         <label>
-          <input type="radio" name="choice3"  value="0">Both the head section and the body section are correct<br>
-          <input type="radio" name="choice3"  value="1">The head section<br>
+          <input type="radio" name="choice3" value="0">Both the head section and the body section are correct<br>
+          <input type="radio" name="choice3" value="1">The head section<br>
           <input type="radio" name="choice3" value="0">The body section<br>
         </label>
       </div>
@@ -55,10 +54,10 @@
           <p>No.4 How do you write "Hello world" in an alert box?</p>
         </strong>
         <label>
-          <input type="radio" name="choice4"  value="0">msg("Hello World")<br>
-          <input type="radio" name="choice4"  value="0">msgBox("Hello World")<br>
-          <input type="radio" name="choice4"  value="1">alert("Hello World");<br>
-          <input type="radio" name="choice4"  value="0">alertBox("Hello World");<br>
+          <input type="radio" name="choice4" value="0">msg("Hello World")<br>
+          <input type="radio" name="choice4" value="0">msgBox("Hello World")<br>
+          <input type="radio" name="choice4" value="1">alert("Hello World");<br>
+          <input type="radio" name="choice4" value="0">alertBox("Hello World");<br>
         </label>
       </div>
       <button type="submit" class="btn btn-success" id="green">submit!</button>
@@ -67,10 +66,19 @@
       <div id="statement">
       </div>
     </form>
-    <div id="after submit">
-      <img id="picture">
+
+    <div id="after_submit">
+      <p id="message"></p>
+      <img id="pictures" src="" alt="images">
     </div>
+
   </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
