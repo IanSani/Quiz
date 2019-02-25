@@ -18,8 +18,8 @@ There are not any bugs that i know of but if you encounter any,please feel free 
 ## Behaviour Driven Development
 
 | User Input                 | Application Output         |
-| 1.Click on choice given    | Result if correct or not   |
-| 2.Click on all the choices |Total marks of what you got |
+ 1.Click on choice given     Result if correct or not   |
+ 2.Click on all the choices  Total marks of what you got |
 
 ## Technologies Used
 There is use of HTML, CSS and javascript together with bootstrap.
