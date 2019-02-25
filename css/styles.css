@@ -1,35 +1,38 @@
-.radio{
+.radio {
   border: #000 1px solid;
   padding: 10px 40px 40px 40px;
 }
-h1{
+
+h1 {
   text-align: center;
   font-family: sans-serif;
 }
-body{
+
+body {
   background-repeat: no-repeat;
-  background-size: cover
-  margin:0;
+  background-size: cover margin:0;
   padding: 0;
   background-image: url("../images/quiz.jpg");
 }
-#button{
+
+#button {
   background-color: #00ff00;
   padding: 10px;
   border-radius: 15px;
 }
-#after_submit{
-  display: none;
-	background: #ff5459;
-	padding: 10px 20px 10px 20px;
-	width: 400px;
-	border-radius: 20px;
-	float: left;
-	margin-left: 20px;
-	font-size: 30px;
 
+#after_submit {
+  display: none;
+  background: #ff5459;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  font-size: 30px;
 }
+
 #pictures {
-	width: 375px;
-	height: 245px;
+  width: 375px;
+  height: 245px;
 }
